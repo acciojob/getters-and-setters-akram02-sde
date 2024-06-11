@@ -19,10 +19,7 @@ class Person {
 }
 
 class Student extends Person {
-	constructor(name, age){
-		super(name, age)
-	}
-
+	
 	study() {
 		console.log(`${this.name} is studying`)
 	}
@@ -30,10 +27,7 @@ class Student extends Person {
 }
 
 class Teacher extends Person {
-	constructor(name, age){
-		super(name, age)
-	}
-
+	
 	teach() {
 		console.log(`${this.name} is teaching`)
 	}
